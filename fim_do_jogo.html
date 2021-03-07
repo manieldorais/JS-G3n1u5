@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fim do Jogo | JS G3n1u5</title>
+	<meta name="viewport" content="height=device-height, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="main/main.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+	<script src="main/main.js"></script>
+</head>
+<body>
+	<a href="index.html" class="score-btn">
+		<img src="img/x.png" class="x-img">
+	</a>
+<div class="dv100">
+	<h1>Fim do Jogo</h3>
+</div>
+<div class="dv200">
+	<small>SCORE</small>
+	<h1 id="valor-score"></h3>
+		<div class="dv100">
+			<input type="type" name="" placeholder="Digite seu nome" id="input-name">
+			<a href="javascript:void(0);" class="btn btn-block btn-iniciar" onclick="SalvarRanking();">Salvar Ranking</a>
+		</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		$("#valor-score").html(localStorage.getItem('gen_score'));
+	})
+</script>
+</body>
+</html>
