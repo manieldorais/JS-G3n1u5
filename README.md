@@ -5,3 +5,9 @@ que o jogador acertar a sequência inteira ele soma um ponto e uma nova rodada s
 rodada a sequência anterior é acrescida de um novo número de modo que a sequência vai ficando cada vez
 maior e mais difícil de memorizar. Se o jogador errar algum número da sequência o jogo acaba e a
 pontuação final é mostrada. O jogador poderá salvar sua pontuação no ranking do jogo.
+
+
+## Dev
+
+**Daniel Morais** – [@ManielDorais](https://twitter.com/ManielDorais) – danielmatos98@gmail.com  
+[Instagram: @ManielDorais ](https://instagram.com/ManielDorais)
